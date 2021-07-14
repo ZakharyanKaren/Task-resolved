@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html[lang = 'en'] .arrow, html[lang = 'en'] .blipy {
+    display: none;
+}
+
+html[lang='ko'] .deposit-text {
+    font-size: 23px;
+}
+
+html[lang='ko'] .betting-text {
+    font-size: 18px;
+    line-height: 21px;
+    top: 26px;
+    right: 14px;
+}
+
+html[lang='ko'] .faq-text {
+    font-size: 23px;
+    line-height: 27px;
+    top: 33px;
+    right: 22px;
+}
+
+html[lang='ko'] .open-arrow .all-sections {
+    right: -86px;
+}
+
+html[lang='ko'] .all-sections {
+    right: -149px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+
+.all-sections {
+    position: relative;
+    width: 149px;
+    height: 93px;
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+    right: -86px;
+    transition: 0.3s;
+}
+
+.all-images {
+    position: absolute;
+    background-color: inherit;
+    background-repeat: no-repeat;
+}
+
+.all-texts {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    line-height: 14px;
+}
+
+.deposit {
+    background: linear-gradient(90deg, #CB5AFF 0%, #8332FF 100%);
+    margin-bottom: 9px;
+}
+
+.deposit-img {
+    width: 33px;
+    height: 36px;
+    top: 28px;
+    left: 20px;
+    background-image: url("./Images/deposit-bag.svg");
+}
+
+.deposit-text {
+    top: 40px;
+    right: 16px;
+}
+
+.betting {
+    background: linear-gradient(90deg, #00AAFF 0%, #2365E9 100%);
+    margin-bottom: 9px;
+}
+
+.betting-img {
+    width: 33px;
+    height: 33px;
+    top: 30px;
+    left: 16px;
+    background-image: url("./Images/betting-ball.svg");
+}
+
+.betting-text {
+    width: 54px;
+    top: 33px;
+    right: 16px;
+    text-align: center;
+}
+
+.faq {
+    background: linear-gradient(90deg, #692CFF 0%, #2365E9 100%);
+    margin-bottom: 9px;
+}
+
+.faq-img {
+    width: 33px;
+    height: 33px;
+    top: 30px;
+    left: 16px;
+    background-image: url("./Images/faq-question-mark.svg");
+}
+
+.faq-text {
+    top: 39px;
+    right: 30px;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 64px;
+    width: 1px;
+    height: 93px;
+    background-image: url("./Images/vertical-line.svg");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.deposit:hover, .betting:hover, .faq:hover, .blipy:hover {
+    right: 0!important;
+    transition: 0.5s;
+}
+
+
+/* ------------------------------------ Corean view ------------------------------ */ 
+
+.arrow {
+    position: relative;
+    width: 64px;
+    height: 45px;
+    border-radius: 2px;
+    background: linear-gradient(354.12deg, #737DF2 4.63%, #2365E9 95.4%);
+    border-radius: 11px 0 0 11px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    right: -86px;
+}
+
+.arrow-img {
+    position: absolute;
+    top: 12px;
+    left: 27px;
+    width: 11.79px;
+    height: 22.65px;
+    background-image: url("./Images/arrow.svg");
+    background-repeat: no-repeat;
+    background-color: inherit;
+    transition: 0.5s;
+}
+
+.blipy {
+    width: 148px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-right: 0;
+}
+
+.blipy-img-left {
+    width: 42px;
+    height: 67px;
+    top: 13px;
+    left: 13px;
+    background-image: url("./Images/blipy-logo.svg");
+}
+
+.open-arrow .arrow-img {
+    transform: rotate(180deg);
+}
+
+.blipy-img-right {
+    width: 84px;
+    height: 93px;
+    top: 8px;
+    right: 0px;
+    background-image: url('./Images/gift.svg');
+}
+
+.blipy-vertical-line {
+    background-color: #40BCA1;
+}
