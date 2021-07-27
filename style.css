@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html[lang = 'en'] .arrow, html[lang = 'en'] .blipy {
-    display: none;
+html[lang = 'ko'] .arrow, html[lang = 'ko'] .blipy {
+    display: block;
 }
 
 html[lang='ko'] .deposit-text {
@@ -31,6 +31,7 @@ html[lang='ko'] .all-sections {
 }
 
 body {
+    background-color: #121524;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     margin: 0;
@@ -141,7 +142,7 @@ a {
 }
 
 .deposit:hover, .betting:hover, .faq:hover, .blipy:hover {
-    right: 0!important;
+    right: -1px!important;
     transition: 0.5s;
 }
 
@@ -149,6 +150,7 @@ a {
 /* ------------------------------------ Corean view ------------------------------ */ 
 
 .arrow {
+    display: none;
     position: relative;
     width: 64px;
     height: 45px;
@@ -173,10 +175,9 @@ a {
 }
 
 .blipy {
+    display: none;
     width: 148px;
     background-color: #FFFFFF;
-    border: 1px solid black;
-    border-right: 0;
 }
 
 .blipy-img-left {
