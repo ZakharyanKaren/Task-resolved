@@ -9,16 +9,6 @@ const languages = {
     betting: "스포츠 배팅룰",
     faq: "FAQ",
   },
-  ru: {
-    deposit: "ДЕПОЗИТ",
-    betting: "БЕТТИНГ",
-    faq: "FAQ",
-  },
-  es: {
-    deposit: "LADEPOSIT",
-    betting: "BETTINGE",
-    faq: "FAQ",
-  },
 };
 
 const languageUsed = document.documentElement.lang;
